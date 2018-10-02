@@ -1,5 +1,5 @@
 {
-  "name": "djnode",
+  "name": "djanode",
   "version": "0.1.0",
   "description": "Django-like framework for node.js",
   "main": "index.js",
@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/thomascking/djnode/issues"
   },
-  "homepage": "https://github.com/thomascking/djnode#readme"
+  "homepage": "https://github.com/thomascking/djnode#readme",
+  "bin": {
+    "djanode": "./commands.js"
+  },
+  "dependencies": {
+    "commander": "^2.18.0",
+    "ncp": "^2.0.0"
+  }
 }
